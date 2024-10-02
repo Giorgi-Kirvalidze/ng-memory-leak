@@ -3,10 +3,10 @@
 
 @use '@angular/material' as mat;
 @include mat.core();
-$my-primary: mat.define-palette(mat.$blue-palette, 300);
-$my-accent: mat.define-palette(mat.$green-palette, 400);
-$my-warn: mat.define-palette(mat.$red-palette, 400);
-$my-theme: mat.define-light-theme(
+$my-primary: mat.m2-define-palette(mat.$m2-blue-palette, 300);
+$my-accent: mat.m2-define-palette(mat.$m2-green-palette, 400);
+$my-warn: mat.m2-define-palette(mat.$m2-red-palette, 400);
+$my-theme: mat.m2-define-light-theme(
     (
         color: (
             primary: $my-primary,
